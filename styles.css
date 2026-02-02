@@ -1,7 +1,7 @@
 body {
     background-color: #53526b;
     /* horizontal line pattern background */
-    background-image: linear-gradient(to bottom, #6ba6a7 2px, transparent 2px);
+    background-image: linear-gradient(to bottom, #000000 2px, transparent 2px);
     background-size: 100% 4px;
     color: #000;
     margin: 0;
