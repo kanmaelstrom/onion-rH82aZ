@@ -1,15 +1,45 @@
 body {
+    background-color: #53526b;
+    /* horizontal line pattern background */
+    background-image: linear-gradient(to bottom, #6ba6a7 2px, transparent 2px);
+    background-size: 100% 4px;
+    color: #000;
     margin: 0;
+    padding: 20px;
+    font-family: "Sansation";
 }
-footer {
-    position: fixed;
-    bottom: 10px;
-    font-size: 0.9rem;
-    color: #888;
-    margin: 10px;
-    text-align: center;
-    width: 100%;
-}
+
 h1 {
-    margin: 10px;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+input {
+    display: block;
+    width: 300px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #000;
+    background-color: #fff;
+    font-size: 1em;
+}
+
+button {
+    padding: 5px 15px;
+    border: 1px solid #000;
+    background-color: #e6e6e6;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d4d4d4;
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 0.8em;
+}
+@font-face {
+    font-family: "Sansation";
+    src: url(Sansation-Regular.ttf);
 }
