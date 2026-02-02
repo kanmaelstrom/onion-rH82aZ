@@ -19,7 +19,9 @@ loginBtn.addEventListener("click", async () => {
             })
         });
 
-        const result = await response.json();
+            const text = await response.text(); 
+console.log("Raw response from server:", text); 
+const result = JSON.parse(text);
 
         // 3. Handle the response from Python
         if (response.ok) {
