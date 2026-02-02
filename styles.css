@@ -1,9 +1,6 @@
 body {
-    background-color: #53526b;
-    /* horizontal line pattern background */
-    background-image: linear-gradient(to bottom, #000000 2px, transparent 2px);
-    background-size: 100% 4px;
-    color: #000;
+    background-color: #232323;
+    color: #b8bad1;
     margin: 0;
     padding: 20px;
     font-family: "Sansation";
@@ -19,15 +16,16 @@ input {
     width: 300px;
     padding: 5px;
     margin-bottom: 10px;
-    border: 1px solid #000;
-    background-color: #fff;
+    border: none;
+    outline: none;
+    background-color: #b8bad1;
     font-size: 1em;
 }
 
 button {
     padding: 5px 15px;
     border: 1px solid #000;
-    background-color: #e6e6e6;
+    background-color: #b8bad1;
     cursor: pointer;
 }
 
